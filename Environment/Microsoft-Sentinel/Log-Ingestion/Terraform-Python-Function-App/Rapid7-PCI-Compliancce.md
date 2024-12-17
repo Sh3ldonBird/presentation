@@ -1,7 +1,7 @@
 # Thought behind it
-The idea is to create a segregated Azure workspace in which compliance scans for PCI DSS are ingested into Microsoft Sentinel to then be viewed and sifted through.
-An Azure function app is created to with the proper requirements to house the python scripting to pull the logs into the Microsoft Sentinel Data Connector.
-Secure coding practices are in place because of the use of Azure Key Vault. No secrets are visible in the repository.
+- The idea is to create a segregated Azure workspace in which compliance scans for PCI DSS are ingested into Microsoft Sentinel to then be viewed and sifted through.  
+- An Azure function app is created to with the proper requirements to house the python scripting to pull the logs into the Microsoft Sentinel Data Connector.  
+- Secure coding practices are in place because of the use of Azure Key Vault. No secrets are visible in the repository.  
 
 To secure this further, adding in managed identities, VNet Integrations, making the function app a Private Endpoints, only accept Rapid7's IP addresses, signed HTTP requests, including a WAF in the same vNET in front of the Function App.
 # Terraform Code
