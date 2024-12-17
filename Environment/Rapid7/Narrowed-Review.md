@@ -1,7 +1,7 @@
-I just ended up deploying the InsightVM platform within my homelab to play around with
-![[Home-lab-VMs.png]]
-![[Rapid7-InsightVM.png]]
-The pairing key kept messing up though. I'm going to have to return to it.
+I just ended up deploying the InsightVM platform within my homelab to play around with  
+[Home-lab-VMs.png](https://github.com/Sh3ldonBird/presentation/blob/main/Environment/Rapid7/Home-lab-VMs.png)  
+[Rapid7-InsightVM.png](https://github.com/Sh3ldonBird/presentation/blob/main/Environment/Rapid7/Rapid7-InsightVM.png)  
+The pairing key kept messing up though. I'm going to have to return to it.  
 # What I believe they're using going off of the job description
 ## [InsightVM](https://docs.rapid7.com/insightvm/)
 https://docs.rapid7.com/insightvm/insightvm-quick-start-guide/
@@ -20,7 +20,7 @@ https://docs.rapid7.com/insight-agent/linux-installation/
 
 
 #### Installation using .deb token no proxy
-doasbardsdo@Edge-Jumpbox:/opt/rapid7/ir_agent/components$ sudo -i
+sheldonbird@Edge-Jumpbox:/opt/rapid7/ir_agent/components$ sudo -i
 root@Edge-Jumpbox:~# cd /opt/rapid7/ir_agent/components/insight_agent/4.0.13.32/
 root@Edge-Jumpbox:/opt/rapid7/ir_agent/components/insight_agent/4.0.13.32# ./configure_agent.sh --token=us3:6ab28401-6caf-4540-8f39-98d010633365 -v --start
 [INFO] This is the latest version of this script available on this machine
