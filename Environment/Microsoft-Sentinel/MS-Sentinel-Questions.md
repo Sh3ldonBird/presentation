@@ -23,7 +23,6 @@
 - Custom data connectors cost the organization less money.
 	- **How much does data connectors cost?
 - Do we have a hybrid approach depending on data connector and log type?
-	- take a screenshot of "Microsoft Sentinel Deep Dive Sept. 2023 update" youtube video at 43:22 for the storage options
 	- Are the security engineers responsible for the cost metrics or do we leave that to the architects?
 - How often do we need to restore archive data to the analytics or basic pools?
 - Do we hold onto data in analytics and then move it into data archive within 90 days or sooner?
