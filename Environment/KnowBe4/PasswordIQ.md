@@ -1,0 +1,3 @@
+- Do we currently use PasswordIQ? 
+- Do we have API reports pulling the data for these accounts and feeding them into Sentinel from the KSAT console or similar?
+- Looks like it would take a full on VM to run.
