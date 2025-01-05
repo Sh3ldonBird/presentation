@@ -1,6 +1,5 @@
 # Questions for Interview
 - Do we have CSP (Cloud Service Provider) capabilities within our tenant or outside of it?
-- Does contenthub have a Rapid7 connector or do we have to code our own through REST API for MS Sentinel?
 - How often do we get called in to integrate a custom application into our sentinel subscription?
 - How granular is our Manage Groups (workspaces?), Subscriptions, and resource groups within our MS Azure tenant? I ask because of the nature of alert fatigue etc.
 	- Do we only handle corporate or are we the security team for the entirety of every outlier office?
